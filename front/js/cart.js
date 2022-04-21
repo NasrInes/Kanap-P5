@@ -174,7 +174,7 @@ if (window.location.href.indexOf("cart") > -1) {
                         let cartItem = input.closest('.cart__item');
                         let dataId = cartItem.dataset.id;
                         let dataColor = cartItem.dataset.color;
-                        /*Assignation de la nouvelle quantité voule*/
+                        /*Assignation de la nouvelle quantité voulue*/
                         newValue = input.value;
                         input.setAttribute('value', newValue);
                         /*Enregistrement du nouveau panier sur le localStorage*/

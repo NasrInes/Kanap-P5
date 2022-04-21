@@ -52,7 +52,7 @@ productDetails();
 let color = ''; 
 let quantityProduct = '';
 
-/* Couleur chosie*/
+/* Couleur choisie*/
 let colorProduct = document.getElementById('colors');
 function colorValue() {
     return colorProduct.options[colorProduct.selectedIndex].text;
